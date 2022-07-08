@@ -1,0 +1,11 @@
+global:
+  chartPath: "apps"
+  stage: dev
+  projectName: infrastructure-charts
+  source:
+    repoURL: https://my-git-repo.com/infrastructure-charts.git
+    targetRevision: main
+    appsBasePath: stages/$STAGE/infrastructure-charts/apps
+  helmValues:
+    - name: stage
+      value: $STAGE
