@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  app-of-apps:
+  - apiVersion: v2
+    created: "2022-07-08T14:00:57.238064349Z"
+    description: app-of-apps
+    digest: 88d7faf54354de289537e0561a42cf69371caa06562639cb46c2d4bfb87715bf
+    name: app-of-apps
+    type: application
+    urls:
+    - https://github.com/iits-consulting/argocd-app-of-apps/releases/download/app-of-apps-0.1.0/app-of-apps-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-08T14:00:57.238073449Z"
